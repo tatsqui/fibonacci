@@ -36,6 +36,7 @@ end
 # Space complexity: I am not sure, but I think that it lineary because of the call stack
 # required for each branch of the binary tree. 
 def fibonacci(n)
+  raise ArgumentError if n == nil || n < 0 || n.class != Integer
   # base case
   return n if n < 2
 
