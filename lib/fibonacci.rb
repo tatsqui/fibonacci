@@ -30,7 +30,7 @@ def fibonacci(n)
 end
 
 # simple recursive solution
-# Time complexity: exponential (On^3) because this recursion has no memory so 
+# Time complexity: exponential (O2^n) because this recursion has no memory so 
 # the fibonacci tree function calls base case for each branch of the tree (n-1) & (n-2),
 #  which grows exponentially for each subsequently higher level of the binary tree. 
 # Space complexity: I am not sure, but I think that it lineary because of the call stack
